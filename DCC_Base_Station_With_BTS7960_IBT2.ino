@@ -70,23 +70,6 @@ void setup()
   digitalWrite(LED, LOW);
 }
 
-//===================================== functies om pulsen te maken ===============
-
-/*
-void basicPulses()
-{
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-}
-*/
 
 //============================================ Settings ===================================
 
@@ -96,39 +79,6 @@ void settings()
   {
     outputIdString = idStr;
   }
-}
-
-//===================================== functies om pulsen te maken ===============
-
-void basicNormalPulses(int value)
-{
-  for (byte x = 0; x < value; x++)
-  {
-    dccZeroPulse();
-    dccOnePulse();
-    dccZeroPulse();
-    dccOnePulse();
-    dccZeroPulse();
-    dccOnePulse();
-    dccZeroPulse();
-    dccOnePulse();
-    dccZeroPulse();
-    dccOnePulse();
-  }
-}
-
-void basicZeroPulses()
-{
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
-  dccZeroPulse();
 }
 
 void SendDriveFunctions()
