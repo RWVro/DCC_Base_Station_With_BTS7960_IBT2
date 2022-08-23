@@ -17,9 +17,13 @@ string commandStr;	// = "TBL128-Speed-Update>" for table128 or = "TBL28-Speed-Up
                                       = "FG1FUNCF0>" for function F0, = "FG1FUNCF1>" for function F1, ..... ;
 
 int iad;
+
 speedInstruct128 = 63;
+
 int dirInt;
+
 SendSpdStepByte128 = 0;
+
 int errorSpeedByte = 0;
 
 int speedInstruct = 63;
