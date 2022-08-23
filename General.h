@@ -30,7 +30,7 @@ int locAddr28Byte = 0;
 
 int loc28Array[20][4];    // [20] = locArray28Row    // [4] = locAddr28Byte, locSpdInstr28Byte, locError28Byte, spd28Flg
 
-//===================================== functies om pulsen te maken =========================================
+//===================================== functions to make pulses =========================================
 
 void dccOnePulse()
 {
@@ -63,7 +63,7 @@ void dccZeroPulse()       // Zero pulse on CH A (Main Track)
 }
 
 
-//===================================== Binaire cijfers omzetten in pulsen ================
+//===================================== Binaire digitals to pulses ================
 
 void dccBitsToPulses(boolean digit)
 {
