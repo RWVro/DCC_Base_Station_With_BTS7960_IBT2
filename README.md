@@ -32,7 +32,7 @@ int functGrp1Byte = 128;         // (1,0,0,0,0,0,0,0)   F0 - F4 (bit0 = f0, bit1
 private void Update128SpeedSettings()
         {
             string saveStr = commandStr + "AD=" + iad + "!" + "SI=" + speedInstruct128 + "*" + "DF=" + dirInt + ":" +
-                                    "SS=" + SendSpdStepByte128 + "%" + "EB=" + errorSpeedByte + "#";
+                                       "SS=" + SendSpdStepByte128 + "%" + "EB=" + errorSpeedByte + "#";
             sendStr = saveStr;
         }
 
