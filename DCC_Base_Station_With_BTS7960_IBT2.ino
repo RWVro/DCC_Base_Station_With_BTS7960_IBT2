@@ -1,5 +1,4 @@
 
-
 //==================================== DCC_Base_Station_BT_V3 ======================================
 //
 //
@@ -71,7 +70,6 @@ void setup()
   digitalWrite(LED, LOW);
 }
 
-
 //============================================ Settings ===================================
 
 void settings()
@@ -126,12 +124,11 @@ void SendFunctions()                      // Update functions
   dccIdlePackets(1);
 }
 
-
 //======================================= Main Program ==============================
 
 void loop()
 {
-  dccIdlePackets(1);    
+  basicNormalPulses(10);          // Create DCC signal
 
   SendDriveFunctions();
 
